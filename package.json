@@ -2,8 +2,16 @@
   "name": "heinotation",
   "version": "1.0.0",
   "description": "vue3 driven note rendering.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "es",
+    "lib",
+    "README.md"
+  ],
+  "homepage": "https://github.com/798714773/heinotation#readme",
   "repository": "https://github.com/798714773/heinotation.git",
   "author": "Cui",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {}
 }
