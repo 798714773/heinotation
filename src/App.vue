@@ -5,6 +5,9 @@
     <HelloWorld :userInfo="qwe" />
 
     <!-- <pre style="overflow: auto;">{{themeVars}}</pre> -->
+    <Svg></Svg>
+    <Note></Note>
+    <ElButton>asdfas</ElButton>
 
     <n-global-style />
   </n-config-provider>
@@ -19,6 +22,10 @@ export default defineComponent({
 import { NConfigProvider, NGlobalStyle, useThemeVars } from 'naive-ui'
 import { darkTheme } from 'naive-ui'
 import HelloWorld from './components/HelloWorld.vue'
+
+import { Svg, Note } from '../lib/index'
+import { ElButton } from 'element-plus'
+
 /**
    * @type import('naive-ui').GlobalThemeOverrides
    */
